@@ -58,9 +58,9 @@ export default function sidebar() {
             <hr className="sidebarHr" />
 
             <ul className="sidebarFriendList">
-                {Users.map((user) => (
+                {/* {Users.map((user) => (
                     <Friend user={user} key={user.id}/>
-                ))}
+                ))} */}
                 
             </ul>
 
