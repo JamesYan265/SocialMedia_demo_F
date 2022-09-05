@@ -1,5 +1,4 @@
 import React from 'react';
-import Online from '../Online/Online';
 import './Rightbar.css';
 import { Users } from "../../dummyData";
 
@@ -19,9 +18,9 @@ export default function rightbar( {user} ) {
 
         <h4 className="rightbarTitle">Online</h4>
         <ul className="rightbarFriendList">
-          {Users.map((user) =>(
+          {/* {Users.map((user) =>(
             <Online user={user} key={user.id} />
-          ))}
+          ))} */}
 
         </ul>
 
