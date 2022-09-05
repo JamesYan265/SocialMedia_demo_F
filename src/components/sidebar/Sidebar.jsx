@@ -8,7 +8,6 @@ import { Bookmark } from '@mui/icons-material';
 import { Person } from '@mui/icons-material';
 import { Settings } from '@mui/icons-material';
 import { Users } from '../../dummyData';
-import Friend from '../Friend/Friend';
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { AuthContext } from '../../state/AuthContext';
