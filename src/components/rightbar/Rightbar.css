@@ -1,0 +1,112 @@
+.rightbar {
+  flex: 3.5;
+}
+.rightbar .rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+.rightbar .rightbarWrapper .eventContainer {
+  display: flex;
+  align-items: center;
+}
+.rightbar .rightbarWrapper .eventContainer .markImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+.rightbar .rightbarWrapper .eventContainer .eventText {
+  font-weight: 300;
+  font-size: 15px;
+}
+.rightbar .rightbarWrapper .eventImg {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+.rightbar .rightbarWrapper .rightbarTitle {
+  margin-bottom: 20px;
+}
+.rightbar .rightbarWrapper .rightbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.rightbar .rightbarWrapper .rightbarFriendList .rightbarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.rightbar .rightbarWrapper .rightbarFriendList .rightbarFriend .rightbarProfileImgContainer {
+  margin-right: 10px;
+  position: relative;
+}
+.rightbar .rightbarWrapper .rightbarFriendList .rightbarFriend .rightbarProfileImgContainer .rightbarProfileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.rightbar .rightbarWrapper .rightbarFriendList .rightbarFriend .rightbarProfileImgContainer .rightbarOnline {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgb(125, 255, 125);
+  width: 12px;
+  height: 12px;
+  top: -2px;
+  left: 0;
+  border: 2px solid white;
+}
+.rightbar .rightbarWrapper .rightbarFriendList .rightbarFriend .rightbarUsername {
+  font-weight: 550;
+}
+.rightbar .rightbarWrapper .promotionTitle {
+  font-size: 18px;
+  font-weight: 550;
+  margin-bottom: -10px;
+}
+.rightbar .rightbarWrapper .rightbarPromotionImg {
+  width: 85%;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+.rightbar .rightbarWrapper .promotionName {
+  font-size: small;
+  color: gray;
+  margin-top: -20px;
+}
+.rightbar .rightbarWrapper .rightbarTitle {
+  font-size: 18px;
+  font-weight: 550;
+  margin-top: 10px;
+}
+.rightbar .rightbarWrapper .rightInfo {
+  margin-bottom: 30px;
+}
+.rightbar .rightbarWrapper .rightInfo .rightbarInfoItem {
+  margin-bottom: 10px;
+}
+.rightbar .rightbarWrapper .rightInfo .rightbarInfoItem .rightbarInfoKey {
+  font-weight: 500;
+  margin-right: 5px;
+  color: gray;
+}
+.rightbar .rightbarWrapper .rightInfo .rightbarFollowings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rightbar .rightbarWrapper .rightInfo .rightbarFollowings .rightbarFollow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.rightbar .rightbarWrapper .rightInfo .rightbarFollowings .rightbarFollow .rightbaraFollowingImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Rightbar.css.map */

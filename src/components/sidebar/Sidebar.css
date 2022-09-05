@@ -1,0 +1,55 @@
+.sidebar {
+  flex: 2.5;
+  height: 100vh;
+}
+.sidebar .sidebarWrapper {
+  padding: 20px;
+}
+.sidebar .sidebarWrapper .sidebarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sidebar .sidebarWrapper .sidebarList .sidebarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 4px 6px;
+  cursor: pointer;
+  box-shadow: 3px 7px 13px -10px #65789f;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.sidebar .sidebarWrapper .sidebarList .sidebarListItem .sidebarIcon {
+  font-size: 35px;
+  margin-right: 10px;
+}
+.sidebar .sidebarWrapper .sidebarList .sidebarListItem .sidebarListItemText {
+  font-size: 20px;
+  padding-top: 3px;
+}
+.sidebar .sidebarWrapper .sidebarList :hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+.sidebar .sidebarWrapper .sidebarHr {
+  margin: 20px 0;
+}
+.sidebar .sidebarWrapper .sidebarFriendList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar .sidebarWrapper .sidebarFriendList .sidebarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.sidebar .sidebarWrapper .sidebarFriendList .sidebarFriend .sidebarFrinedImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+}/*# sourceMappingURL=Sidebar.css.map */
