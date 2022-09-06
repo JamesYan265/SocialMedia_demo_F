@@ -1,2 +1,7 @@
 /* /index.html 200
-/api/*  https://yanfamilysocialmedia-backend.herokuapp.com/:splat  200
+/api/*  https://yanfamilysocialmedia-backend.herokuapp.com/api/:splat  200
+[[redirects]]
+  from = "https://frolicking-stardust-6f056b.netlify.app"
+  to = "https://yanfamilysocialmedia-backend.herokuapp.com/api/"
+  status = 200
+  force = true
