@@ -1,6 +1,7 @@
 /auth/register https://yanfamilysocialmedia-backend.herokuapp.com/api/auth/register 200
 /auth/login https://yanfamilysocialmedia-backend.herokuapp.com/api/auth/login 200
 /users username=:username https://yanfamilysocialmedia-backend.herokuapp.com/api/users?username=:username 301
+/users userId=:post.userId https://yanfamilysocialmedia-backend.herokuapp.com/api/users?userId=:post.userId 301
 /post/profile/* https://yanfamilysocialmedia-backend.herokuapp.com/api/post/profile/:splat 200
 /post/timeline/* https://yanfamilysocialmedia-backend.herokuapp.com/api/post/timeline/:splat 200
 /* /index.html 200
