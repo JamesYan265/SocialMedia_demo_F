@@ -1,0 +1,48 @@
+[[redirects]]
+  from = "/post/timeline/"
+  to = "https://yanfamilysocialmedia-backend.herokuapp.com/api"
+  status = 200
+  force = true
+  query = {path = ":path"}
+  
+[[redirects]]
+  from = "/post/profile/"
+  to = "https://yanfamilysocialmedia-backend.herokuapp.com/api"
+  status = 200
+  force = true
+  query = {path = ":path"}
+
+[[redirects]]
+  from = "/post"
+  to = "https://yanfamilysocialmedia-backend.herokuapp.com/api"
+  status = 200
+  force = true
+  query = {path = ":path"}
+  
+[[redirects]]
+  from = "/users/"
+  to = "https://yanfamilysocialmedia-backend.herokuapp.com/api"
+  status = 200
+  force = true
+  query = {path = ":path"}
+  
+[[redirects]]
+  from = "/users"
+  to = "https://yanfamilysocialmedia-backend.herokuapp.com/api"
+  status = 200
+  force = true
+  query = {path = ":path"}
+  
+[[redirects]]
+  from = "/auth"
+  to = "https://yanfamilysocialmedia-backend.herokuapp.com/api"
+  status = 200
+  force = true
+  query = {path = ":path"}
+  
+[[redirects]]
+  from = "/upload"
+  to = "https://yanfamilysocialmedia-backend.herokuapp.com/api"
+  status = 200
+  force = true
+  query = {path = ":path"}
