@@ -1,9 +1,0 @@
-/api* https://yanfamilysocialmedia-backend.herokuapp.com/api:splat 200 
-/post/timeline/ https://yanfamilysocialmedia-backend.herokuapp.com/api:splat 200
-/post/profile/ https://yanfamilysocialmedia-backend.herokuapp.com/api:splat 200
-/post https://yanfamilysocialmedia-backend.herokuapp.com/api:splat 200
-/users/ https://yanfamilysocialmedia-backend.herokuapp.com/api:splat 200
-/users https://yanfamilysocialmedia-backend.herokuapp.com/api:splat 200
-/auth https://yanfamilysocialmedia-backend.herokuapp.com/api:splat 200
-/upload https://yanfamilysocialmedia-backend.herokuapp.com/api:splat 200
-/* /index.html 200
