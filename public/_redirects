@@ -1,2 +1,2 @@
-/auth/register https://yanfamilysocialmedia-backend.herokuapp.com/api:splat 200
+/auth/register https://yanfamilysocialmedia-backend.herokuapp.com/api/:splat 200
 /* /index.html 200
